@@ -7,7 +7,7 @@ UpdateServer () {
         git restore .
         sleep 1
         git stash
-        git pull "https://github.com/Uuvana-Studios/longvinter-linux-server.git" main
+        git pull "https://github.com/boyphongsakorn/longvinter-linux-server.git" official
         sleep 1
         echo "Starting server..."
         sudo chmod -R ugo+rwx /home/nilsson/longvinter-linux-server/
