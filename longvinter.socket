@@ -1,0 +1,10 @@
+[Unit]
+BindsTo=longvinter.service
+
+[Socket]
+ListenFIFO=/run/longvinter.control
+FileDescriptorName=control
+RemoveOnStop=true
+SocketMode=0660
+SocketUser=steamcmd
+SocketGroup=steamcmd
