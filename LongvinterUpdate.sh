@@ -10,10 +10,10 @@ UpdateServer () {
         git stash
         git pull "https://github.com/Uuvana-Studios/longvinter-linux-server.git" main
         sleep 1
-        echo "Starting server..."
+        # echo "Starting server..."
         sudo chmod -R ugo+rwx /data/longvinter-linux-server/
         # sudo systemctl start longvinter && echo "Server is now running"
-        echo "Server is now comeing soon to running"
+        echo "Server is coming soon to running"
 }
 
 cd /data/longvinter-linux-server
